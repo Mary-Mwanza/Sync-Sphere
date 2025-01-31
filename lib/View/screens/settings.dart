@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:s_sphere/View/screens/notifications.dart';
+import 'package:s_sphere/View/screens/privacy.dart';
+import 'package:s_sphere/View/screens/profile.dart';
 
 class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key});
@@ -76,50 +79,6 @@ class SettingsTile extends StatelessWidget {
   }
 }
 
-class ProfilePage extends StatelessWidget {
-  const ProfilePage({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Profile Page'),
-      ),
-      body: Center(
-        child: Text('Profile Page Content'),
-      ),
-    );
-  }
-}
 
-class NotificationsPage extends StatelessWidget {
-  const NotificationsPage({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Notifications Page'),
-      ),
-      body: Center(
-        child: Text('Notifications Page Content'),
-      ),
-    );
-  }
-}
-
-class PrivacyPage extends StatelessWidget {
-  const PrivacyPage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Privacy Page'),
-      ),
-      body: Center(
-        child: Text('Privacy Page Content'),
-      ),
-    );
-  }
-}
