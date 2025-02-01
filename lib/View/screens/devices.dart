@@ -18,8 +18,9 @@ class DevicePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+       backgroundColor: Colors.grey[300],
         appBar: AppBar(
-          backgroundColor: const Color.fromARGB(255, 118, 118, 118),
+         backgroundColor: Colors.transparent,
           actions: [
             IconButton(
               onPressed: () {},
